@@ -32,7 +32,6 @@ docker exec -it simple-web-service bash
 tail -f ./text.log
 ```
 
-
 ## Exercise 1.4
 
 ```bash
@@ -44,4 +43,21 @@ docker exec -it ubuntu-curl bash
 apt-get update 
 apt-get install curl -y
 sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+```
+
+## Exercise 1.6
+
+```bash
+docker pull devopsdockeruh/simple-web-service:ubuntu
+docker pull devopsdockeruh/simple-web-service:alpine
+
+docker images | grep devopsdockeruh/simple-web-service
+
+docker run -d --name alpine-log devopsdockeruh/simple-web-service:alpine
+docker exec -it alpine-log sh
+tail -f ./text.log
+
+docker run -d --name ubuntu-log devopsdockeruh/simple-web-service:ubuntu
+docker exec -it ubuntu-log bash
+tail -f ./text.log
 ```
