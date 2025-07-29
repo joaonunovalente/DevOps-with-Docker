@@ -1,3 +1,0 @@
-Password: basics
-
-Message: "This is the secret message"
