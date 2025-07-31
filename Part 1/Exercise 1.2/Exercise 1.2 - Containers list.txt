@@ -1,4 +1,0 @@
-Script started on 2024-04-01 21:57:00+01:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="183" LINES="19"]
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
-Script done on 2024-04-01 21:57:01+01:00 [COMMAND_EXIT_CODE="0"]
