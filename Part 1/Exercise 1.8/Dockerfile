@@ -1,3 +1,3 @@
-From devopsdockeruh/simple-web-service:alpine
+FROM devopsdockeruh/simple-web-service:alpine
 
-cmd server
+CMD server
