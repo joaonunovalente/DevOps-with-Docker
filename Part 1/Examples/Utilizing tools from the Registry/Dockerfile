@@ -9,13 +9,13 @@ WORKDIR /usr/src/app
 RUN gem install bundler:2.3.3
 
 # Copy the files required for dependencies to be installed
-COPY ./rails-example-project/Gemfile* ./
+COPY ./material-applications/rails-example-project/Gemfile* ./
 
 # Install all dependencies
 RUN bundle install
 
 # Copy all of the source code
-COPY ./rails-example-project .
+COPY ./material-applications/rails-example-project .
 
 # We pick the production mode since we have no intention of developing the software inside the container.
 # Run database migrations by following instructions from README
