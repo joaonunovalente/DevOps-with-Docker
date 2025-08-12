@@ -3,10 +3,10 @@
 ## Commands
 
 ```bash
-docker tag frontend-image joaonunovalente/frontend-image
-docker image push joaonunovalente/frontend-image
+docker tag frontend-image joaonunovalente/sokoban-game
+docker image push joaonunovalente/sokoban-game
 ```
 
 ## Website on Render
 
-- https://frontend-image-3wk7.onrender.com/
+- https://sokoban-game-app.onrender.com/
