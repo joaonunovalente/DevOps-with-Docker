@@ -1,0 +1,12 @@
+services:
+    frontend-service:
+        image: frontend-example-image
+        ports:
+          - 5000:5000
+        container_name: frontend-containter
+    backend-service:
+        image: backend-example-image
+        ports:
+          - 8080:8080
+        container_name: backend-container
+        
