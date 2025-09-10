@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:13.2-alpine
+    networks:
+      - database-network # Name in this Docker Compose file
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+
+
+networks:
+  database-network: # Name in this Docker Compose file
+    name: database-network # Name that will be the actual name of the network
