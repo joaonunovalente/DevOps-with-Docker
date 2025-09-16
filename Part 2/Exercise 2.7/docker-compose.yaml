@@ -27,4 +27,5 @@ services:
     image: postgres:alpine
     environment:
       POSTGRES_PASSWORD: postgres
-      
+    volumes:
+      - ./database:/var/lib/postgresql/data
