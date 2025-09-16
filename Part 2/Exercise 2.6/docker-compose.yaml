@@ -1,0 +1,29 @@
+services:
+  frontend-service:
+    image: frontend-example-image
+    ports:
+      - 5000:5000
+    container_name: frontend-container
+
+  backend-service:
+    image: backend-example-image
+    ports:
+      - 8080:8080
+    environment:
+      - REDIS_HOST=backend-redis
+      - POSTGRES_HOST=db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DATABASE=postgres
+    container_name: backend-container
+    depends_on:
+      - db
+      - backend-redis
+
+  backend-redis:
+    image: redis
+    
+  db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: postgres
