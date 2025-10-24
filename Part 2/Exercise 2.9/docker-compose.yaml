@@ -1,0 +1,44 @@
+services:
+    web:
+        image: nginx
+        ports:
+          - 80:80
+        volumes:
+            - ./nginx.conf:/etc/nginx/nginx.conf:ro
+        depends_on:
+            - frontend-service
+            - backend-service
+        container_name: nginx
+            
+    frontend-service:
+        image: frontend-example-image
+        ports:
+        - 5000:5000
+        container_name: frontend-container
+
+    backend-service:
+        image: backend-example-image
+        ports:
+        - 8080:8080
+        environment:
+        - REDIS_HOST=backend-redis
+        - POSTGRES_HOST=db
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+        - POSTGRES_DATABASE=postgres
+        depends_on:
+        - db
+        - backend-redis        
+        container_name: backend-container
+
+
+    backend-redis:
+        image: redis
+        container_name: redis
+        
+    db:
+        image: postgres:alpine
+        environment:
+            POSTGRES_PASSWORD: postgres
+        volumes:
+            - ./database:/var/lib/postgresql/data
