@@ -1,4 +1,4 @@
-# Utilizing tools from the Registry
+# Exercise 1.12
 
 ## Commands
 ```bash
