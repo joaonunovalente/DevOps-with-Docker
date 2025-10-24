@@ -1,12 +1,8 @@
 # Exercise 1.16
 
-## Commands
 
-```bash
-docker tag frontend-image joaonunovalente/sokoban-game
-docker image push joaonunovalente/sokoban-game
-```
+## Website
 
-## Website on Render
+- https://github.com/joaonunovalente/robot-game
 
-- https://sokoban-game-app.onrender.com/
+- https://robot-game.joaonunovalente.com/

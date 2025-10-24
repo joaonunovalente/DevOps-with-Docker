@@ -3,7 +3,9 @@
 ## Commands
 
 ```bash
-docker container run nginx (x3)
+docker container run nginx
+docker container run nginx
+docker container run nginx
 
 docker container stop sleepy_kalam
 docker container stop relaced_archimedes

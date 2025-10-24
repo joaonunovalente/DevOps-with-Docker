@@ -5,7 +5,7 @@
 git clone https://github.com/docker-hy/material-applications.git
 
 docker build -t backend-example-image .
-docker run -p 8080:8080 --name backend-example-container8 backend-example-image
+docker run -p 8080:8080 --name backend-example-container backend-example-image
 ```
 
 ##  Terminal

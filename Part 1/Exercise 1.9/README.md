@@ -2,6 +2,5 @@
 
 ## Commands
 ```bash
-docker run --mount type=bind, src="$(pwd)"/text.log, dst="/usr/src/app/text.log" devopsdockeruh/simple-web-service
+$ touch text.log  && docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
 ```
-
