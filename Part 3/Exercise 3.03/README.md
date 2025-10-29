@@ -11,4 +11,4 @@ chmod +x builder.sh
 
 ## Docker Hub
 
-- https://hub.docker.com/repository/docker/joaonunovalente/testing
+- https://hub.docker.com/joaonunovalente/testing
