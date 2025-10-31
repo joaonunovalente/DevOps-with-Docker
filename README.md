@@ -3,7 +3,6 @@
 This repository contains my solutions, examples, and notes for the **[DevOps with Docker](https://devopswithdocker.com/)** course by the **University of Helsinki**.  
 The course consists of three graded chapters that cover Docker fundamentals, Docker Compose, and container security and optimization.
 
----
 
 ## Certificate of Completion
 
@@ -16,8 +15,6 @@ Once all chapters are completed and verified, the official certificate will appe
 ## Course Overview
 
 The course is divided into **three parts**:
-
----
 
 ### Chapter 2 – Docker Basics
 
@@ -105,8 +102,6 @@ The course is divided into **three parts**:
   - [Exercise 3.09](./Part%203/Exercise%203.09)
   - [Exercise 3.10](./Part%203/Exercise%203.10)
 
----
-
 ## 🛠️ Tools & Technologies
 
 - Docker & Docker Compose  
@@ -114,8 +109,6 @@ The course is divided into **three parts**:
 - Node.js and Python containers  
 - Git & GitHub Actions  
 - Linux CLI & shell scripting
-
----
 
 ## Outro
 
