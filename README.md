@@ -57,7 +57,7 @@ The course is divided into **three parts**:
 - Understand the role of Docker Compose in container orchestration.  
 - Practice deploying and managing real-world applications using Docker Compose.
 
-**In this repository:** [Part 2 – Docker Compose & Multi-Container Setups](./Part%202)
+**In this repository:** [Part 2 – Docker Compose](./Part%202)
 
 **Contents**
 - **Examples**
@@ -84,7 +84,7 @@ The course is divided into **three parts**:
 - Learn how to optimize Docker images for production, including reducing image size and improving security.  
 - Understand the limitations of Docker Compose in production and explore the need for orchestration tools.  
 
-**In this repository:** [Part 3 – Deployment & DevOps Concepts](./Part%203)
+**In this repository:** [Part 3 – Security and Optimization](./Part%203)
 
 **Contents**
 - **Examples**
@@ -102,7 +102,7 @@ The course is divided into **three parts**:
   - [Exercise 3.09](./Part%203/Exercise%203.09)
   - [Exercise 3.10](./Part%203/Exercise%203.10)
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Docker & Docker Compose  
 - Nginx (reverse proxy)  
