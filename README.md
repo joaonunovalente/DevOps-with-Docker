@@ -1,6 +1,6 @@
 # DevOps with Docker
 
-This repository contains my solutions, examples, and notes for the **[DevOps with Docker](https://devopswithdocker.com/)** course by the **University of Helsinki**.  
+This repository contains my solutions, examples, and notes for the **[DevOps with Docker](https://devopswithdocker.com/)** course from the **University of Helsinki**.  
 The course consists of three graded chapters that cover Docker fundamentals, Docker Compose, and container security and optimization.
 
 ## Certificate of Completion
